@@ -1,0 +1,8 @@
+`ifdef def_A
+code Atrue +1
+	`ifdef def_B
+		code Btrue +2
+	else 
+		code Bfalse -1 
+else
+code A false 0
